@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+
+<configuration>
+    <typeAliases>
+        <typeAlias type="com.project.bean.Student" alias="Student"/>
+        <typeAlias type="com.project.bean.Course" alias="Course"/>
+        <typeAlias type="com.project.bean.Studentinfo" alias="StudentInfo"/>
+        <typeAlias type="com.project.bean.Floors" alias="Floors"/>
+        <typeAlias type="com.project.bean.Testinfo" alias="TestInfo"/>
+        <typeAlias type="com.project.bean.Score" alias="Score"/>
+
+    </typeAliases>
+
+    <mappers>
+        <mapper resource="com/project/mapper/StudentMapper.xml"></mapper>
+        <mapper resource="com/project/mapper/CourseMapper.xml"></mapper>
+        <mapper resource="com/project/mapper/StudeninfoMapper.xml"></mapper>
+        <mapper resource="com/project/mapper/FloorsMapper.xml"></mapper>
+        <mapper resource="com/project/mapper/TestinfoMapper.xml"></mapper>
+        <mapper resource="com/project/mapper/ScoreMapper.xml"></mapper>
+    </mappers>
+
+</configuration>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="com.project.dao.TestinfoDao">
+
+    <insert id="addTestInfo" parameterType="TestInfo">
+        insert into testinfo
+        values(#{testInfo.cno},#{testInfo.addr},#{testInfo.times},#{testInfo.startime},#{testInfo.endtime})
+    </insert>
+    <select id="findTestInfo" parameterType="java.lang.String" resultType="TestInfo">
+        select * from testinfo where cno = #{cno}
+    </select>
+</mapper>

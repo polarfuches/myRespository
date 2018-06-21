@@ -1,0 +1,127 @@
+@charset "UTF-8";
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    line-height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.f_cA {
+    color: #1fbba6;
+}
+
+.f_cB {
+    color: #e32727;
+}
+
+.f_cC {
+    color: #3085be;
+}
+
+address {
+    background-color: #FFF;
+    padding: 20px 0px;
+    text-align: center;
+    font-style: normal;
+    line-height: 1.8em;
+}
+
+#Header {
+    background-color: #FFF;
+}
+
+#Header h1 {
+    padding: 10px 0px 0px 30px;
+    display: block;
+    float: left;
+}
+
+#Head {
+    border-bottom: #CCC solid 1px;
+    height: 50px;
+}
+
+#Head .user {
+    width: 65px;
+    float: right;
+    padding: 17px 10px 16px 60px;
+    background: url(../images/common/ico_uer.gif) no-repeat 1.5em 1em;
+    position: relative;
+    z-index: 999;
+}
+
+#Head .user a {
+    display: block;
+    padding-right: 22px;
+    background: url(../images/common/ico_arrow01.gif) no-repeat right center;
+    color: #333;
+    text-decoration: none;
+}
+
+#Head #UserList {
+    position: absolute;
+    visibility: hidden;
+    z-index: 888;
+    background-color: #f1f1f1;
+    width: 65px;
+}
+
+#Head #UserList a {
+    display: block;
+    padding: 4px 5px 3px 15px;
+    background-image: none;
+}
+
+#Head #UserList a:hover {
+    background-color: #1e628f;
+}
+
+#Navi {
+    height: 100px;
+    overflow: hidden;
+}
+
+#Navi li {
+    width: 12.5%;
+    text-align: center;
+    float: left;
+}
+
+#Navi li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 17px 0px 20px 0px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #3085be;
+}
+
+#Navi li.active a,
+#Navi li a:hover {
+    background-color: #1e628f;
+}
+
+#Navi li a img {
+    display: block;
+    margin: 0px auto;
+}
+
+#Navi li a span {
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#Contents {
+    padding: 25px 20px 25px 20px;
+    height: auto;
+    overflow: auto;
+}
